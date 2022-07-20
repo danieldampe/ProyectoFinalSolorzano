@@ -430,7 +430,7 @@ export const readyStart = () => {
             // Nivel Dragon
             else if(nivelActual == "Dragon") {
                 teamBugster.forEach(bug => {
-                    bug.maxhp = 10;
+                    bug.maxhp = 180;
                     bug.hp = bug.maxhp;
                 });
                 salty.ataques = [punchTwo, boss];
