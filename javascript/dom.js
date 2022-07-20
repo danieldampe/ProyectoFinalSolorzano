@@ -567,6 +567,7 @@ export const dropGashat = () => {
  
 // Animaciones
 export const introExAid = () => {
+    setP(`Presiona Enter`);
     // Enter
     let cont = 0;
     body.onkeydown = (e) => {
