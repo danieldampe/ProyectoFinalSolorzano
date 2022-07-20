@@ -4,484 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- BOOTSTRAP CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="./my-styles/my-style.css">
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/f365743f4c.js" crossorigin="anonymous"></script>
+    <title>Inicio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body style="background-color: #d7d9d1;">
-    <!-- NAVBAR BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="margin: 0 0 30px 0; background-color: #69e1e5;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./image/logo-blue.webp" alt="logo" width="190">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Super Sentai</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kamen Rider</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mi cuenta</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mis productos</a>
-              </li>
-            </ul>
-          </div>
+<body>
+    <div class="container">
+        <header id="header">
+            <form action="#" id="formulario">
+                <div class="form__inputs">
+                    <label for="nombre__input">Nombre de usuario:</label>
+                    <input type="text" name="nombre" id="nombre__input">
+                </div>
+                <div class="form__submit">
+                    <input type="submit" id="submit__button">
+                </div>
+            </form>
+        </header>
+        <main>
+            <div class="gashats-grid-container">
+                <div class="gashats-grid__item gashats-grid__item--ex-aid">
+                    <img src="./media/img/gashats/ex-aid-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--brave">
+                    <img src="./media/img/gashats/brave-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--snipe">
+                    <img src="./media/img/gashats/snipe-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--lazer">
+                    <img src="./media/img/gashats/lazer-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--robot">
+                    <img src="./media/img/gashats/robot-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--music">
+                    <img src="./media/img/gashats/music-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--jet">
+                    <img src="./media/img/gashats/jet-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--giri">
+                    <img src="./media/img/gashats/giri-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--sports">
+                    <img src="./media/img/gashats/sports-gashat-img.jpg" alt="">
+                </div>
+                <div class="gashats-grid__item gashats-grid__item--dragon">
+                    <img src="./media/img/gashats/dragon-gashat-img.jpg" alt="">
+                </div>
+            </div>
+        </main>
+        <div class="warning">
+            <p class="warning__p"></p>
+            <h4>Titulo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repellendus vel obcaecati dicta dolore aperiam voluptatem doloremque consequuntur ab temporibus.</p>
         </div>
-      </nav>
+    </div>
 
-    <main class="main">
-        <!-- PRODUCTOS PRINCIPALES -->
-        <article class="Productos-Principales">
-
-            <!-- PRODUCTOS GRID -->
-            <section class="Productos-Grid">
-                <div class="products-grid">
-                    <div class="products-grid__cont-img">
-                        <img src="./image/geartlingerMemorial.webp" alt="">
-                    </div>
-                    <div class="products-grid__cont-img">
-                        <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/220509_kiramei_changer_ME_main_visual_500x.jpg?v=1652265800" alt="">
-                    </div>
-                    <div class="products-grid__cont-img">
-                        <img src="./image/revice/dXGiffardRexVistamp.webp" alt="">
-                    </div>
-                    <div class="products-grid__cont-img">
-                        <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/HDHpgK_pb_gokaitsuikaunit_top_500x.jpg?v=1654517527" alt="">
-                    </div>
-                    <div class="products-grid__cont-img">
-                        <img src="./image/revice/vistampSelectionthree.webp" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!-- CAROUSEL BOOTSTRAP -->
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="width: 90%; margin: 0 auto 30px auto;">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./image/revice/demons-driver-banner.webp" class="d-block w-100" style="object-fit: cover; height: 420px;" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./image/gokaiCelular/gokai-celular-tweaker-unit.jpg" class="d-block w-100" style="object-fit: cover; height: 420px;" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-            <!-- ALGUNOS PRODUCTOS -->
-            <section class="Algunos-Productos">
-                <div class="some-products">
-                    <div class="some-products__con-text">
-                        <div class="some-products-cont-text__tittle">
-                            <h2>Avataro Sentai Don Brothers</h2>
-                            <button type="button" class="btn btn-outline-primary">Ver mas</button>
-                        </div>
-                        <div class="some-products-cont-text__p">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui culpa assumenda repellat vero magnam soluta placeat quae fuga suscipit!</p>
-                        </div>
-                    </div>
-                    <hr class="some-products__line">
-                    <div class="some-products__cont-cards">
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/donBlaster.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Don Blaster</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $65
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/enyaRideon.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX EnyaRideon</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $57
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/dXAvataroGearSet02.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX AvataroGear Set 02</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $26
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/donBuckle.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX DonBuckle</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $43
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/changeHeroesDonMomotaroAlterToQGerAlterSet.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>Change Heroes Don Momotaro Alter & ToQGer Alter Set</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $58
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/dXAvataroGearSet04.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Avataro Gear Set 04</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $26
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/dXAvataroGearSet03.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Avataro Gear Set 03</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $26
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/donBrothers/dXAvataroGearSet01.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Avataro Gear Set 01</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $26
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="some-products__line-2">
-                </div>
-            </section>
-
-            <!-- PRODUCTO PRINCIPAL -->
-            <section class="Producto-Principal">
-                <div class="product-main">
-                    <div class="product-main__cont-img">
-                        <img src="./image/donBrothers/donZenkaiOhBoxTwo.jpg" alt="">
-                    </div>
-                    <div class="product-main__cont-text">
-                        <div class="product-main-cont-text__tittle">
-                            <h4>DX Don Zenkai Oh</h4>
-                        </div>
-                        <hr class="product-main-cont-text__line">
-                        <div class="product-main-cont-text__details">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet officiis laboriosam voluptatum excepturi necessitatibus animi quisquam consequatur sunt quos voluptas, et saepe, recusandae accusantium quo perspiciatis praesentium accusamus a!</p>
-                        </div>
-                        <div class="product-main-cont-text__price">
-                            <div class="main-cont-text-price__text">
-                                Precio:
-                            </div>
-                            <div class="main-cont-text-price__number">
-                                $50.00
-                            </div>
-                        </div>
-                        <div class="product-main-cont-text__botton-add">
-                            <button>Add to cart</button>
-                        </div>
-                        <div class="product-main-cont-text__botton-buy">
-                            <button>Buy it now</button>
-                        </div>
-                        <div class="product-main-cont-text__share">
-                            <div class="main-cont-text-share__text">
-                                Comparte este producto:
-                            </div>
-                            <div class="main-cont-text-share__redes">
-                                <div class="cont-facebook">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class="cont-twitter">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                                <div class="cont-instagram">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>  
-                            </div>                  
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ALGUNOS PRODUCTOS -->
-            <section class="Algunos-Productos">
-                <div class="some-products">
-                    <div class="some-products__con-text">
-                        <div class="some-products-cont-text__tittle">
-                            <h2>Kamen Rider Revice</h2>
-                            <button type="button" class="btn btn-outline-primary">Ver mas</button>
-                        </div>
-                        <div class="some-products-cont-text__p">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui culpa assumenda repellat vero magnam soluta placeat quae fuga suscipit!</p>
-                        </div>
-                    </div>
-                    <hr class="some-products__line">
-                    <div class="some-products__cont-cards">
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/revice/dXGiffardRexVistamp.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Giffard Rex Vistamp</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $68
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="./image/revice/dXRollingVistamp.webp" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Rolling Vistamp</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $57
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/1000164389_1_500x.jpg?v=1644363845" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX AvataroGear Set 02</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $115
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/1000162838_1_500x.jpg?v=1630518355" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Gundephone 50</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $50
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/1000165758_2_300x.jpg?v=1635463064" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>Revice Remix Figure Putera & Jackal Genome Set</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $58
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/00_6c030b1d-8bff-4f48-a599-870f906c3b4c_500x.jpg?v=1628344816" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>DX Revice Driver & Vistamp Holder Toys R Us Limited Set</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $155
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/1000171044_1_500x.jpg?v=1647523459" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>SH Figuarts Kamen Rider Jeanne</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $105
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="some-products-cont-cards__card">
-                            <div class="products-cont-cards-card__cont-img">
-                                <img src="https://cdn.shopify.com/s/files/1/1377/3219/products/1000169408_1_500x.jpg?v=1645100723" alt="">
-                            </div>
-                            <div class="products-cont-cards-card__cont-text">
-                                <div class="cont-cards-card-cont-text__tittle">
-                                    <h5>SH Figuarts Kamen Rider Demons Spider Genome</h5>
-                                </div>
-                                <div class="cont-cards-card-cont-text__price">
-                                    $106
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="some-products__line-2">
-                </div>
-            </section>
-
-            <!-- PRODUCTO PRINCIPAL -->
-            <section class="Producto-Principal">
-                <div class="product-main">
-                    <div class="product-main__cont-img">
-                        <img src="./image/revice/dXWeekendriver.webp" alt="">
-                    </div>
-                    <div class="product-main__cont-text">
-                        <div class="product-main-cont-text__tittle">
-                            <h4>DX Week Endriver</h4>
-                        </div>
-                        <hr class="product-main-cont-text__line">
-                        <div class="product-main-cont-text__details">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet officiis laboriosam voluptatum excepturi necessitatibus animi quisquam consequatur sunt quos voluptas, et saepe, recusandae accusantium quo perspiciatis praesentium accusamus a!</p>
-                        </div>
-                        <div class="product-main-cont-text__price">
-                            <div class="main-cont-text-price__text">
-                                Precio:
-                            </div>
-                            <div class="main-cont-text-price__number">
-                                $130.00
-                            </div>
-                        </div>
-                        <div class="product-main-cont-text__botton-add">
-                            <button>Add to cart</button>
-                        </div>
-                        <div class="product-main-cont-text__botton-buy">
-                            <button>Buy it now</button>
-                        </div>
-                        <div class="product-main-cont-text__share">
-                            <div class="main-cont-text-share__text">
-                                Comparte este producto:
-                            </div>
-                            <div class="main-cont-text-share__redes">
-                                <div class="cont-facebook">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class="cont-twitter">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                                <div class="cont-instagram">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>  
-                            </div>                  
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </article>
-
-        <footer>
-
-            <div class="footer">
-                <div class="footer__cont-redes">
-                    <p>Nuestras Redes</p>
-                    <div class="footer-cont-redes__i">
-                        <div class="cont-facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </div>
-                        <div class="cont-twitter">
-                            <i class="fa-brands fa-twitter"></i>
-                        </div>
-                        <div class="cont-instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__cont-logo">
-                    <img src="./image/logo-blue.webp" alt="">
-                </div>
-                <div class="footer__cont-payment">
-                    <p>Metodos de Pago</p>
-                    <div class="footer-cont-payment__i">
-                        <div class="cont-paypal">
-                            <i class="fa-brands fa-cc-paypal"></i>
-                        </div>
-                        <div class="cont-visa">
-                            <i class="fa-brands fa-cc-visa"></i>
-                        </div>
-                        <div class="cont-mastercard">
-                            <i class="fa-brands fa-cc-mastercard"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-
-    </main>
-
-
-
-
-
-
-
-
-
-    <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- JS -->
+    <script src="./javascript/index.js"></script>
 </body>
 </html>

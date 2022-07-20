@@ -1,0 +1,67 @@
+[
+    {
+        "id": "Ex-aid",
+        "tittle": "Conoce a Ex-Aid",
+        "description": "Ex-Aid pertenece al juego de Mighty Action X."
+    },
+    {
+        "id": "Brave",
+        "tittle": "Conoce a Brave",
+        "description": "Brave es un caballero pertenciente al juego de Taddle Quest."
+    },
+    {
+        "id": "Snipe",
+        "tittle": "Conoce a Snipe",
+        "description": "Snipe es un soldado desertor."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Conoce a Lazer",
+        "description": "Lazer es una motocicleta perteciente al juego Bakusou Bike."
+    },
+    {
+        "id": "Brave",
+        "tittle": "Conoce a Arambura",
+        "description": "Brave y el ahora mago maligno Arambura solian ser compañeros de aventuras."
+    },
+    {
+        "id": "Brave",
+        "tittle": "Cediendo",
+        "description": "Arambura en una busqueda por más poder termino cediendo ante la magia maligna."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Mundo sin reglas",
+        "description": "Lazer perdio a su compañero de carreras debido a una trampa que se les fue tendida."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Conoce a Motors",
+        "description": "Motors es un corredor del juego Bakusou Bike nunca fue muy conocido por jugar limpio."
+    },
+    {
+        "id": "Snipe",
+        "tittle": "Conoce a Revol",
+        "description": "El mundo de Revol fue sometido a una dictadura este tambien se vio sometido a obedecer las ordenes del nuevo lider."
+    },
+    {
+        "id": "Snipe",
+        "tittle": "Renuncia",
+        "description": "Snipe al no querer obedecer ordenes de un dictador tomo la decision de abandonar su escuadron y lo llevo a ser perseguido por el nuevo regimen."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Sin reglas",
+        "description": "Motors no fue castigado por acbar con la vida del compañero de Lazer."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Una moto sin una rueda",
+        "description": "Lazer no fue capaz de volver a competir en una carrera debido a la falta de un compañero corredor que lo manejara."
+    },
+    {
+        "id": "Lazer",
+        "tittle": "Virus Motocicleta",
+        "description": "No preguntes por que Virus Motocicleta puede dar puños y patadas."
+    }
+]

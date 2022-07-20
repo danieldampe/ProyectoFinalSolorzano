@@ -1,0 +1,159 @@
+@import "./variables";
+/* --- --- Reset --- --- */ 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    background-image: url(../media/img/background/pink-full.png);
+}
+.container--brave {
+    background-image: url(../media/img/background/bosque-full.jpg);
+}
+.container--snipe {
+    background-image: url(../media/img/background/desierto-full.jpg);
+}
+.container--lazer {
+    background-image: url(../media/img/background/ciudad-full.jpg);
+}
+
+// Effect
+@mixin effect {
+    min-width: 150px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+/* --- Player --- */
+.player {
+    width: 8%;
+
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+    // img
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    // effect
+    .effect {
+        @include effect();
+    }
+    // item
+    .item {
+        min-width: 100px;
+        top: -90%;
+    }
+    // gashat
+    .gashat {
+        @include effect();
+        display: block;
+        top: initial;
+        right: initial;
+        bottom: -20px;
+        left: -20px;
+        transform: scale(0);
+        img {
+            border-radius: 10px;
+        }
+    }
+    .gashat--genm {
+        img {
+            border: 2px solid #710e9d;
+        }
+    }
+    .gashat--brave {
+        img {
+            border: 2px solid $color-brave;
+        }
+    }
+    .gashat--ex-aid {
+        img {
+            border: 2px solid $color-ex-aid;
+        }
+    }
+    .gashat--snipe {
+        img {
+            border: 2px solid #2070ff;
+        }
+    }
+    .gashat--lazer {
+        img {
+            border: 2px solid $color-music;
+        }
+    }
+}
+.cont-img-rider-lazer {
+    width: 10%;
+}
+
+/* --- Bugster --- */
+.bugster {
+    width: 10%;
+
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    // img
+    img {
+        max-width: 100%;
+        display: block;    
+    }
+    // effect
+    .effect {
+        @include effect();
+    }
+    // item
+    .item {
+        min-width: 90px;
+        top: -90%;
+    }
+}
+// recompensa
+.gashat-recomp {
+    display: none;
+    opacity: 1;
+    width: 100px;
+    right: 100px;
+}
+.gashat-recomp--giri {
+    width: 80px;
+    right: 150px;
+}
+.cont-img-bugster-giri {
+    width: 8.5%;
+}
+.cont-img-bugster-robot {
+    width: 9%;
+}
+.cont-img-bugster-music {
+    width: 9%;
+}
+.cont-img-bugster-salty-virus {
+    width: 7%;
+}
+.cont-img-bugster-arambura-virus {
+    width: 6.5%;
+}
+.cont-img-bugster-revol-virus {
+    width: 7%;
+}
+.cont-img-bugster-motors {
+    width: 8.5%;
+}
+.cont-img-bugster-motors-virus {
+    width: 12.5%;
+}
+
+// Reset de escenario
+@import "rest.scss"
