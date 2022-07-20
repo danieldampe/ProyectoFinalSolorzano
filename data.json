@@ -12,7 +12,7 @@
     {
         "id": "Snipe",
         "tittle": "Conoce a Snipe",
-        "description": "Snipe es un soldado desertor."
+        "description": "Snipe es un soldado desertor protagonista de Bang Bang Shooting."
     },
     {
         "id": "Lazer",
@@ -63,5 +63,10 @@
         "id": "Lazer",
         "tittle": "Virus Motocicleta",
         "description": "No preguntes por que Virus Motocicleta puede dar puños y patadas."
+    },
+    {
+        "id": "Genm",
+        "tittle": "Conoce a Genm",
+        "description": "Solo se sabe que se parece a Ex-Aid"
     }
 ]
