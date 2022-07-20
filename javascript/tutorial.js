@@ -98,7 +98,7 @@ const bugVisorShot = new clases.AtaqueBug(`Disparo`, 15, "Dispara y genera 15 de
 const bugVisorChain = new clases.AtaqueBug(`Sierra`, 20, "Ataque con sierra que genera sangrado[5] en el enemigo, dura 3 turnos", fight.chainAttack, true, 3);
 
 export const genmBugster = new clases.Bugster(`Genm`, "./media/img/bugster/genm-level-one.png", 140, 140, 2, [bugVisorShot, bugVisorChain], dom.genmDom, true, false, false, 0, false, false, [], 0);
-export const genmSports = new clases.Bugster(`Genm`, "./media/img/bugster/genm-level-three.png", 10, 180, 2, [bugVisorShot, wheel, performance], dom.genmDom, true, false, false, 0, false, false, [], 0);
+export const genmSports = new clases.Bugster(`Genm`, "./media/img/bugster/genm-level-three.png", 180, 180, 2, [bugVisorShot, wheel, performance], dom.genmDom, true, false, false, 0, false, false, [], 0);
 
 // Equipos
 let teamRider;

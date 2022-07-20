@@ -186,6 +186,8 @@ export const robotAttack = (player, target, arrPly, arrBug) => {
     player.contDamage = 0;
     // Quitar vida
     target.hp -= damage;
+    // "HIT" del busgter
+    dom.hitOrMiss(target, damage);
 }
 
 // Music
